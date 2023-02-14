@@ -4,19 +4,13 @@ int number1 = Convert.ToInt32(Console.ReadLine());
 Console.Write("Введите второе число: ");
 int number2 = Convert.ToInt32(Console.ReadLine());
 int maxnumber = -1;
-int minnumber = -1;
+
 if (number1 > maxnumber)
 {
-    maxnumber = number1;
+    Console.Write(maxnumber = number1 ); 
 }
 else if (number2 > number1)
 {
-    maxnumber = number2;
-    maxnumber = number1;
+    Console.Write("maxnumber = number2" );
+    Console.Write("minnumber = number1" );
 }
-
-Console.Write(maxnumber );
-
-Console.WriteLine(minnumber );
-
-
