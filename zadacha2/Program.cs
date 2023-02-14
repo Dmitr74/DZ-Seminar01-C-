@@ -6,11 +6,11 @@ int number2 = Convert.ToInt32(Console.ReadLine());
 
 if (number1 > number2)
 {
-    Console.Write($"максимальное число = {number1}" ); 
-    Console.Write($"минимальное число = {number2}" );
+    Console.WriteLine($"максимальное число = {number1}" ); 
+    Console.WriteLine($"минимальное число = {number2}" );
 }
 else if (number2 > number1)
 {
-    Console.WriteLine($"максимальное число = {number2}" );
-    Console.WriteLine($"минимальное число = {number1}" );
+    Console.WriteLine($"максимальное число = {number2} " );
+    Console.WriteLine($"минимальное число = {number1} " );
 }
