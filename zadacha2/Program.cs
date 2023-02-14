@@ -9,13 +9,14 @@ if (number1 > maxnumber)
 {
     maxnumber = number1;
 }
-else if (number2 > maxnumber)
+else if (number2 > number1)
 {
     maxnumber = number2;
     maxnumber = number1;
 }
 
-Console.Write(maxnumber);
-Console.WriteLine(minnumber);
+Console.Write(maxnumber );
+
+Console.WriteLine(minnumber );
 
 
