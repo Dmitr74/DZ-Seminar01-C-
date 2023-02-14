@@ -17,7 +17,7 @@ else if (number2 > maxnumber)
 else maxnumber = number1;
      minnumber = number2;
 
-Console.Write(Max);
-Console.Write(Min);
+Console.Write(maxnumber);
+Console.Write(minnumber);
 
 
