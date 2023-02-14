@@ -18,6 +18,6 @@ else maxnumber = number1;
      minnumber = number2;
 
 Console.Write(maxnumber);
-Console.Write(minnumber);
+Console.WriteLine(minnumber);
 
 
