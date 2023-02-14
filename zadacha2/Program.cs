@@ -7,11 +7,11 @@ int maxnumber = number1;
 
 if (number1 > number2)
 {
-    Console.Write("maxnumber" = number1 ); 
-    Console.Write("minnumber" = number2 );
+    Console.Write("maxnumber = number1" ); 
+    Console.Write("minnumber = number2" );
 }
 else if (number2 > number1)
 {
-    Console.WriteLine("maxnumber" = number2 );
-    Console.WriteLine("minnumber" = number1 );
+    Console.WriteLine("maxnumber = number2" );
+    Console.WriteLine("minnumber = number1" );
 }
