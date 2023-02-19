@@ -19,4 +19,4 @@ else if (number3 > number1)
     Console.WriteLine($"maxnumber = {number3} " );
 }
 else
-    Console.Write("Некорректный ввод чисел");
+    Console.Write("Некорректный ввод чисел.");
