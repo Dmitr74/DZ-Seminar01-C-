@@ -13,4 +13,4 @@ while (digit < number)
     Console.Write($"{digit} ");
 
 }
- System.Console.WriteLine("Чётных чисел больше нет.");
+ System.Console.WriteLine("Чётных чисел больше нет!");
